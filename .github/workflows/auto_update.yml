@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --globla surge
     - name: Deploying using surge
-      run:  surge ./ AIC011648.surge.sh --token $ {{ secrets.BOOTCAMP_WEBSITE }}
+      run:  surge ./ aic011648.surge.sh --token $ {{ secrets.BOOTCAMP_WEBSITE }}
